@@ -1,0 +1,7 @@
+[x-cloak] {
+    display: none !important;
+}
+
+.player-text {
+    max-width: 12rem
+}
