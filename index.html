@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=970px, initial-scale=1.0" />
     <title>VK</title>
 
     <link
@@ -88,17 +88,20 @@
       }
       .text-xs {
         font-size: 0.7rem !important;
+        line-height: 1.4 !important;
       }
       .text-base {
         font-size: 0.8rem !important;
+        line-height: 1.4 !important;
       }
       .text-lg {
         font-size: 0.9rem !important;
+        line-height: 1.4 !important;
       }
     </style>
   </head>
   <body class="min-h-screen bg-gray-100 text-base">
-    <header class="bg-white border-b">
+    <header class="sticky top-0 z-10 bg-white border-b">
       <div class="container mx-auto">
         <div class="flex items-center justify-between h-12">
           <div class="flex items-center h-full">
@@ -312,9 +315,32 @@
             <ul class="-ml-1 text-xs">
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -336,9 +362,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -360,9 +409,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center justify-between px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center justify-between px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="flex items-center">
                     <div class="mr-2">
                       <svg
@@ -393,9 +465,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -417,9 +512,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -441,9 +559,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -465,9 +606,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -494,9 +658,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -518,9 +705,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -545,9 +755,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -569,9 +802,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -596,9 +852,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -620,9 +899,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -644,9 +946,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -668,9 +993,32 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
+                  class="relative flex items-center px-2 py-1 rounded hover:bg-gray-200 group"
                   href="#"
                 >
+                  <div
+                    class="absolute left-0 top-0 -ml-4 mt-2 opacity-0 transition duration-300 delay-300 group-hover:opacity-100"
+                  >
+                    <svg
+                      class="w-4 text-gray-500 opacity-60 transition hover:opacity-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </div>
                   <div class="mr-2">
                     <svg
                       class="w-5 text-blue-500"
@@ -817,12 +1165,12 @@
                   </button>
                 </div>
                 <div
-                  class="absolute bottom-0 right-0 left-0 opacity-0 trasition-opacity duration-300 group-hover:opacity-100"
+                  class="absolute bottom-0 right-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                 >
                   <ul class="bg-black bg-opacity-50 rounded-b-sm py-1">
                     <li>
                       <a
-                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        class="flex items-center px-3 py-1 text-white text-opacity-75 hover:text-opacity-100"
                         href="#"
                       >
                         <div class="mr-2">
@@ -846,7 +1194,7 @@
                     </li>
                     <li>
                       <a
-                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        class="flex items-center px-3 py-1 text-white text-opacity-75 hover:text-opacity-100"
                         href="#"
                       >
                         <div class="mr-2">
@@ -870,7 +1218,7 @@
                     </li>
                     <li>
                       <a
-                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        class="flex items-center px-3 py-1 text-white text-opacity-75 hover:text-opacity-100"
                         href="#"
                       >
                         <div class="mr-2">
@@ -1004,7 +1352,7 @@
             </div>
             <div class="bg-white rounded border mb-4">
               <div class="flex align-center justify-between">
-                <a class="flex-1 pl-3 pt-2" href="#"
+                <a class="flex-1 pl-3 pt-2 font-medium" href="#"
                   >Друзья
                   <span class="text-gray-500">37</span>
                 </a>
@@ -1102,7 +1450,7 @@
             <div class="bg-gray-200 h-px"></div>
             <div class="bg-white rounded border mb-4">
               <div class="flex align-center justify-between">
-                <a class="flex-1 pl-3 pt-2" href="#"
+                <a class="flex-1 pl-3 pt-2 font-medium" href="#"
                   >Друзья онлайн
                   <span class="text-gray-500">14</span>
                 </a>
@@ -1193,6 +1541,459 @@
                   </div>
                 </a>
               </div>
+            </div>
+            <div class="bg-white rounded border mb-4">
+              <div class="flex align-center justify-between">
+                <a class="flex-1 px-3 py-2 font-medium" href="#"
+                  >Подписки
+                  <span class="text-gray-500">26</span>
+                </a>
+              </div>
+              <ul class="px-3 pt-1 pb-3 space-y-3">
+                <li class="flex max-h-20 overflow-hidden">
+                  <a class="block flex-shrink-0 px-1" href="#">
+                    <img
+                      class="w-10 rounded-full"
+                      src="./img/content/subscribe-1.jpg"
+                      alt="News"
+                    />
+                  </a>
+                  <div class="pl-2 flex-1">
+                    <a
+                      class="block text-blue-900 mb-0.5 hover:underline"
+                      href="#"
+                      >News</a
+                    >
+                    <div class="text-sm text-gray-500 truncate">
+                      Свежие новости
+                    </div>
+                  </div>
+                </li>
+                <li class="flex max-h-20 overflow-hidden">
+                  <a class="block flex-shrink-0 px-1" href="#">
+                    <img
+                      class="w-10 rounded-full"
+                      src="./img/content/subscribe-2.jpg"
+                      alt="NHL"
+                    />
+                  </a>
+                  <div class="pl-2 flex-1">
+                    <a
+                      class="block text-blue-900 mb-0.5 hover:underline"
+                      href="#"
+                      >NHL</a
+                    >
+                    <div class="text-sm text-gray-500">
+                      Присоединяйся к нам и следи за новостями сильнейшей
+                      хоккейной лиги мира!
+                    </div>
+                  </div>
+                </li>
+                <li class="flex max-h-20 overflow-hidden">
+                  <a class="block flex-shrink-0 px-1" href="#">
+                    <img
+                      class="w-10 rounded-full"
+                      src="./img/content/subscribe-3.jpg"
+                      alt="E:\music"
+                    />
+                  </a>
+                  <div class="pl-2 flex-1">
+                    <a
+                      class="block text-blue-900 mb-0.5 hover:underline"
+                      href="#"
+                      >E:\music</a
+                    >
+                    <div class="text-sm text-gray-500">
+                      Welcome to the family
+                    </div>
+                  </div>
+                </li>
+                <li class="flex max-h-20 overflow-hidden">
+                  <a class="block flex-shrink-0 px-1" href="#">
+                    <img
+                      class="w-10 rounded-full"
+                      src="./img/content/subscribe-4.jpg"
+                      alt="Хабр"
+                    />
+                  </a>
+                  <div class="pl-2 flex-1">
+                    <a
+                      class="block text-blue-900 mb-0.5 hover:underline"
+                      href="#"
+                      >Хабр</a
+                    >
+                    <div class="text-sm text-gray-500">НЛО с вами!</div>
+                  </div>
+                </li>
+                <li class="flex max-h-20 overflow-hidden">
+                  <a class="block flex-shrink-0 px-1" href="#">
+                    <img
+                      class="w-10 rounded-full"
+                      src="./img/content/subscribe-5.jpg"
+                      alt="IGM"
+                    />
+                  </a>
+                  <div class="pl-2 flex-1">
+                    <a
+                      class="block text-blue-900 mb-0.5 hover:underline"
+                      href="#"
+                      >IGM</a
+                    >
+                    <div class="text-sm text-gray-500">Публичная страница</div>
+                  </div>
+                </li>
+              </ul>
+              <div class="bg-gray-200 h-px"></div>
+              <div class="flex align-center justify-between">
+                <a class="flex-1 pl-3 pt-3 pb-1 font-medium" href="#"
+                  >Статьи
+                  <span class="text-gray-500">3</span>
+                </a>
+                <a class="pr-3 pt-3 pb-1 text-gray-500 hover:underline" href="#"
+                  >создать</a
+                >
+              </div>
+              <ul class="px-3 pt-2 pb-3 space-y-3">
+                <li>
+                  <a class="block" href="#">
+                    <div class="relative overflow-hidden rounded">
+                      <img
+                        class="w-full h-28 object-cover object-center"
+                        src="./img/content/article-1.jpg"
+                        alt="Tiger"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50"
+                      >
+                        <button
+                          class="flex items-center justify-center rounded bg-white text-black shadow text-center px-3 py-2 focus:outline-none hover:opacity-75"
+                        >
+                          <div class="mr-1">
+                            <svg
+                              class="w-4 text-black"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewbox="0 0 24 24"
+                              fill="currentColor"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </div>
+                          Читать
+                        </button>
+                      </div>
+                    </div>
+                    <div class="pt-2 text-blue-900 hover:underline">
+                      Lorem ipsum dolor sit amet?
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="block" href="#">
+                    <div class="relative overflow-hidden rounded">
+                      <img
+                        class="w-full h-28 object-cover object-center"
+                        src="./img/content/article-2.jpg"
+                        alt="Car"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50"
+                      >
+                        <button
+                          class="flex items-center justify-center rounded bg-white text-black shadow text-center px-3 py-2 focus:outline-none hover:opacity-75"
+                        >
+                          <div class="mr-1">
+                            <svg
+                              class="w-4 text-black"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewbox="0 0 24 24"
+                              fill="currentColor"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </div>
+                          Читать
+                        </button>
+                      </div>
+                    </div>
+                    <div class="pt-2 text-blue-900 hover:underline">
+                      Voluptates incidunt aliquid eaque?
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div class="bg-gray-200 h-px"></div>
+              <div class="flex align-center justify-between">
+                <a class="flex-1 pl-3 pt-3 pb-1 font-medium" href="#"
+                  >Видеозаписи
+                  <span class="text-gray-500">32</span>
+                </a>
+              </div>
+              <ul class="px-3 pt-2 pb-3 space-y-3">
+                <li>
+                  <a class="block" href="#">
+                    <div class="relative overflow-hidden rounded">
+                      <img
+                        class="w-full h-28 object-cover object-center"
+                        src="./img/content/video-poster-1.jpg"
+                        alt="Сellar"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      >
+                        <button
+                          class="w-14 h-14 rounded-full flex items-center justify-center rounded-full bg-black bg-opacity-50 text-white focus:outline-none hover:bg-opacity-60"
+                        >
+                          <svg
+                            class="w-5 h-5 text-white"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewbox="0 0 512 512"
+                            fill="currentColor"
+                            preserveaspectratio="xMidYMid meet"
+                            xmlns:v="https://vecta.io/nano"
+                          >
+                            <path
+                              d="M62 1c-7.1 1.5-15.1 6-20.6 11.5C32.8 21 27.7 33.5 26 50c-1.3 12.9-1.3 399.1 0 412 1.7 16.5 6.8 29 15.4 37.5 14.9 14.9 37.3 16.3 61.9 3.9 7.6-3.7 345.7-197.5 354.6-203.1 3.1-2 9-7 13.1-11.2 15.9-16.1 19.6-34 10.7-52.1-3.7-7.6-15.2-19.8-23.8-25.3-8.9-5.6-347-199.4-354.6-203.1C99.6 6.7 93.6 4.2 90 3 82.6.6 68.6-.4 62 1z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                      <div
+                        class="absolute bottom-2 right-2 rounded bg-black bg-opacity-50 p-2 px-2 py-1 text-white"
+                      >
+                        3:45
+                      </div>
+                    </div>
+                    <div class="pt-2 text-blue-900 hover:underline">
+                      Consectetur
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="block" href="#">
+                    <div class="relative overflow-hidden rounded">
+                      <img
+                        class="w-full h-28 object-cover object-center"
+                        src="./img/content/video-poster-2.jpg"
+                        alt="Railway"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      >
+                        <button
+                          class="w-14 h-14 rounded-full flex items-center justify-center rounded-full bg-black bg-opacity-50 text-white focus:outline-none hover:bg-opacity-60"
+                        >
+                          <svg
+                            class="w-5 h-5 text-white"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewbox="0 0 512 512"
+                            fill="currentColor"
+                            preserveaspectratio="xMidYMid meet"
+                            xmlns:v="https://vecta.io/nano"
+                          >
+                            <path
+                              d="M62 1c-7.1 1.5-15.1 6-20.6 11.5C32.8 21 27.7 33.5 26 50c-1.3 12.9-1.3 399.1 0 412 1.7 16.5 6.8 29 15.4 37.5 14.9 14.9 37.3 16.3 61.9 3.9 7.6-3.7 345.7-197.5 354.6-203.1 3.1-2 9-7 13.1-11.2 15.9-16.1 19.6-34 10.7-52.1-3.7-7.6-15.2-19.8-23.8-25.3-8.9-5.6-347-199.4-354.6-203.1C99.6 6.7 93.6 4.2 90 3 82.6.6 68.6-.4 62 1z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                      <div
+                        class="absolute bottom-2 right-2 rounded bg-black bg-opacity-50 p-2 px-2 py-1 text-white"
+                      >
+                        2:11
+                      </div>
+                    </div>
+                    <div class="pt-2 text-blue-900 hover:underline">
+                      Adipisicing elit culpa
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <div class="bg-gray-200 h-px"></div>
+              <div class="bg-gray-200 h-px"></div>
+              <div class="flex align-center justify-between">
+                <a class="flex-1 pl-3 pt-3 pb-1 font-medium" href="#"
+                  >Аудиозаписи
+                  <span class="text-gray-500">432</span>
+                </a>
+              </div>
+              <ul class="px-3 pt-2 pb-3 space-y-2">
+                <li>
+                  <a
+                    class="flex items-center rounded p-1 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div
+                      class="relative bg-blue-50 rounded w-10 h-10 flex-shrink-0 group-hover:bg-gray-500"
+                    >
+                      <div
+                        class="absolute inset-0 flex justify-center items-center transition opacity-100 group-hover:opacity-0"
+                      >
+                        <svg
+                          class="w-5 text-blue-500 text-opacity-60"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M17.721 1.599a.75.75 0 01.279.584v11.29a2.25 2.25 0 01-1.774 2.198l-2.041.442a2.216 2.216 0 01-.938-4.333l2.662-.576a.75.75 0 00.591-.734V6.112l-8 1.73v7.684a2.25 2.25 0 01-1.774 2.2l-2.042.44a2.216 2.216 0 11-.935-4.33l2.659-.574A.75.75 0 007 12.53V4.237a.75.75 0 01.591-.733l9.5-2.054a.75.75 0 01.63.149z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100"
+                      >
+                        <div
+                          class="absolute inset-0 flex justify-center items-center"
+                        >
+                          <div class="bg-black w-4 h-4 rounded-full"></div>
+                        </div>
+                        <svg
+                          class="relative w-7 text-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="pl-3 flex-1 overflow-hidden">
+                      <div class="font-medium truncate">Aliquid</div>
+                      <div
+                        class="inline-block text-gray-400 truncate hover:undeline"
+                      >
+                        Nesciunt deserunt
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="flex items-center rounded p-1 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div
+                      class="relative bg-blue-50 rounded w-10 h-10 flex-shrink-0 group-hover:bg-gray-500"
+                    >
+                      <div
+                        class="absolute inset-0 flex justify-center items-center transition opacity-100 group-hover:opacity-0"
+                      >
+                        <svg
+                          class="w-5 text-blue-500 text-opacity-60"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M17.721 1.599a.75.75 0 01.279.584v11.29a2.25 2.25 0 01-1.774 2.198l-2.041.442a2.216 2.216 0 01-.938-4.333l2.662-.576a.75.75 0 00.591-.734V6.112l-8 1.73v7.684a2.25 2.25 0 01-1.774 2.2l-2.042.44a2.216 2.216 0 11-.935-4.33l2.659-.574A.75.75 0 007 12.53V4.237a.75.75 0 01.591-.733l9.5-2.054a.75.75 0 01.63.149z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100"
+                      >
+                        <div
+                          class="absolute inset-0 flex justify-center items-center"
+                        >
+                          <div class="bg-black w-4 h-4 rounded-full"></div>
+                        </div>
+                        <svg
+                          class="relative w-7 text-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="pl-3 flex-1 overflow-hidden">
+                      <div class="font-medium truncate">Magni Commodi</div>
+                      <div
+                        class="inline-block text-gray-400 truncate hover:undeline"
+                      >
+                        Voluptate illo repellendus
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="flex items-center rounded p-1 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div
+                      class="relative bg-blue-50 rounded w-10 h-10 flex-shrink-0 group-hover:bg-gray-500"
+                    >
+                      <div
+                        class="absolute inset-0 flex justify-center items-center transition opacity-100 group-hover:opacity-0"
+                      >
+                        <svg
+                          class="w-5 text-blue-500 text-opacity-60"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M17.721 1.599a.75.75 0 01.279.584v11.29a2.25 2.25 0 01-1.774 2.198l-2.041.442a2.216 2.216 0 01-.938-4.333l2.662-.576a.75.75 0 00.591-.734V6.112l-8 1.73v7.684a2.25 2.25 0 01-1.774 2.2l-2.042.44a2.216 2.216 0 11-.935-4.33l2.659-.574A.75.75 0 007 12.53V4.237a.75.75 0 01.591-.733l9.5-2.054a.75.75 0 01.63.149z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100"
+                      >
+                        <div
+                          class="absolute inset-0 flex justify-center items-center"
+                        >
+                          <div class="bg-black w-4 h-4 rounded-full"></div>
+                        </div>
+                        <svg
+                          class="relative w-7 text-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewbox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="pl-3 flex-1 overflow-hidden">
+                      <div class="font-medium truncate">Qui itaque</div>
+                      <div
+                        class="inline-block text-gray-400 truncate hover:undeline"
+                      >
+                        Laboriosam quos eius
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="flex-1">
