@@ -86,20 +86,29 @@
       .container {
         max-width: 970px !important;
       }
+      .text-xs {
+        font-size: 0.7rem !important;
+      }
+      .text-base {
+        font-size: 0.8rem !important;
+      }
+      .text-lg {
+        font-size: 0.9rem !important;
+      }
     </style>
   </head>
-  <body class="min-h-screen bg-gray-100 text-sm">
+  <body class="min-h-screen bg-gray-100 text-base">
     <header class="bg-white border-b">
       <div class="container mx-auto">
         <div class="flex items-center justify-between h-12">
           <div class="flex items-center h-full">
-            <a class="block w-40 mr-2 flex-shrink-0" href="#"
+            <a class="block w-44 mr-2 flex-shrink-0" href="#"
               ><img class="h-6" src="./img/logo.svg" alt="Logo"
             /></a>
             <div class="w-56 mr-4 flex-shrink-0">
               <div class="relative">
                 <input
-                  class="w-full pr-4 pl-8 h-8 rounded-lg bg-gray-100 focus:outline-none placeholder-gray-500"
+                  class="w-full pr-4 pl-8 h-8 rounded-lg bg-gray-100 text-lg focus:outline-none placeholder-gray-500"
                   type="search"
                   placeholder="Поиск"
                 />
@@ -204,7 +213,7 @@
                   </svg>
                 </div>
               </div>
-              <div class="player-text text-gray-500 truncate">
+              <div class="player-text text-lg text-gray-500 truncate">
                 Lorem - ipsum dolor
               </div>
             </div>
@@ -218,10 +227,7 @@
                 x-on:click="open = true"
                 class="flex items-center h-full px-3 hover:bg-gray-100 cursor-pointer"
               >
-                <div
-                  class="font-medium truncate select-none"
-                  style="max-width: 5rem"
-                >
+                <div class="name font-medium text-lg truncate select-none">
                   John
                 </div>
                 <div class="mx-2 flex-shrink-0 select-none">
@@ -277,18 +283,18 @@
                   </a>
                   <div class="bg-gray-200 h-px mx-4 my-1"></div>
                   <a
-                    class="flex items-center py-2 text-blue-900 text-xs px-4 hover:bg-gray-100"
+                    class="flex items-center py-1 text-blue-900 px-4 hover:bg-gray-100"
                     href="#"
                     >Настройки
                   </a>
                   <a
-                    class="flex items-center py-2 text-blue-900 text-xs px-4 hover:bg-gray-100"
+                    class="flex items-center py-1 text-blue-900 px-4 hover:bg-gray-100"
                     href="#"
                     >Помощь
                   </a>
                   <div class="bg-gray-200 h-px mx-4 my-1"></div>
                   <a
-                    class="flex items-center py-2 text-blue-900 text-xs px-4 hover:bg-gray-100"
+                    class="flex items-center py-1 text-blue-900 px-4 hover:bg-gray-100"
                     href="#"
                     >Выйти
                   </a>
@@ -302,11 +308,11 @@
     <section>
       <div class="container mx-auto">
         <div class="flex items-start pt-4">
-          <div class="w-40 mr-2 flex-shrink-0">
+          <div class="w-44 mr-2 flex-shrink-0">
             <ul class="-ml-1 text-xs">
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -330,7 +336,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -354,7 +360,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center justify-between px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center justify-between px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="flex items-center">
@@ -387,7 +393,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -411,7 +417,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -435,7 +441,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -459,7 +465,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -488,7 +494,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -512,7 +518,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -539,7 +545,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -563,7 +569,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -590,7 +596,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -614,7 +620,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -638,7 +644,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -662,7 +668,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-2 py-1.5 rounded hover:bg-gray-200"
+                  class="flex items-center px-2 py-1 rounded hover:bg-gray-200"
                   href="#"
                 >
                   <div class="mr-2">
@@ -785,7 +791,409 @@
             </ul>
           </div>
           <div class="w-56 mr-4 flex-shrink-0">
-            <div class="bg-white p-4">Center</div>
+            <div class="bg-white rounded border mb-4 p-4 pb-1.5">
+              <div class="relative overflow-hidden cursor-pointer group">
+                <img class="rounded-sm" src="./img/avatar.jpg" alt="John Doe" />
+                <div
+                  class="absolute top-0 right-0 opacity-0 group-hover:opacity-100"
+                >
+                  <button
+                    class="flex justify-center align-center w-4 h-4 bg-black bg-opacity-50 text-white text-opacity-75 rounded-tr-sm rounded-bl-sm hover:text-opacity-100 focus:outline-none"
+                  >
+                    <svg
+                      class="w-3"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div
+                  class="absolute bottom-0 right-0 left-0 opacity-0 trasition-opacity duration-300 group-hover:opacity-100"
+                >
+                  <ul class="bg-black bg-opacity-50 rounded-b-sm py-1">
+                    <li>
+                      <a
+                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        href="#"
+                      >
+                        <div class="mr-2">
+                          <svg
+                            class="w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
+                            />
+                          </svg>
+                        </div>
+                        Обновить фотографию
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        href="#"
+                      >
+                        <div class="mr-2">
+                          <svg
+                            class="w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                            />
+                          </svg>
+                        </div>
+                        Изменить миниатюру
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="flex items-center px-3 py-0.1 text-white text-opacity-75 hover:text-opacity-100"
+                        href="#"
+                      >
+                        <div class="mr-2">
+                          <svg
+                            class="w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewbox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"
+                            />
+                          </svg>
+                        </div>
+                        Добавить эффекты
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pt-3">
+                <button
+                  class="bg-gray-200 rounded w-full py-w px-3 py-1 text-gray-500 hover:text-opacity-75"
+                  type="button"
+                >
+                  Редактировать
+                </button>
+              </div>
+              <ul class="pt-3 -mx-3">
+                <li>
+                  <a
+                    class="flex items-center text-gray-500 px-3 py-1.5 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div class="mr-2">
+                      <svg
+                        class="w-6 text-gray-400 group-hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewbox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                        />
+                      </svg>
+                    </div>
+                    Статистика страницы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center text-gray-500 px-3 py-1.5 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div class="mr-2">
+                      <svg
+                        class="w-6 text-gray-400 group-hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewbox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    Воспоминания</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center text-gray-500 px-3 py-1.5 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div class="mr-2">
+                      <svg
+                        class="w-6 text-gray-400 group-hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewbox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+                        />
+                      </svg>
+                    </div>
+                    Архив новостей</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center text-gray-500 px-3 py-1.5 hover:bg-gray-200 group"
+                    href="#"
+                  >
+                    <div class="mr-2">
+                      <svg
+                        class="w-6 text-gray-400 group-hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewbox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"
+                        />
+                      </svg>
+                    </div>
+                    Денежные переводы</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="bg-white rounded border mb-4">
+              <div class="flex align-center justify-between">
+                <a class="flex-1 pl-3 pt-2" href="#"
+                  >Друзья
+                  <span class="text-gray-500">37</span>
+                </a>
+                <a class="pr-3 pt-2 text-gray-500 hover:underline" href="#"
+                  >Обновления</a
+                >
+              </div>
+              <div class="grid grid-cols-3 gap-3 p-3">
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/50.jpg"
+                      alt="Vivan Black"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Vivan</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/men/57.jpg"
+                      alt="Duane Daniels"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Duane</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/60.jpg"
+                      alt="Avery Rose"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Avery</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/40.jpg"
+                      alt="Sheila Collins"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Sheila</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="Gloria Williamson"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Gloria</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/men/46.jpg"
+                      alt="Herman Thompson"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Herman</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="bg-gray-200 h-px"></div>
+            <div class="bg-white rounded border mb-4">
+              <div class="flex align-center justify-between">
+                <a class="flex-1 pl-3 pt-2" href="#"
+                  >Друзья онлайн
+                  <span class="text-gray-500">14</span>
+                </a>
+              </div>
+              <div class="grid grid-cols-3 gap-3 p-3">
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="Gloria Williamson"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Gloria</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/18.jpg"
+                      alt="Lesa Lane"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Lesa</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/40.jpg"
+                      alt="Sheila Collins"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Sheila</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/men/54.jpg"
+                      alt="Darrell Meyer"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Darrell</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/men/72.jpg"
+                      alt="Jeffery Stephens"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Jeffery</span
+                    >
+                  </div>
+                </a>
+                <a class="group" href="#">
+                  <div class="px-1 mb-1">
+                    <img
+                      class="rounded-full"
+                      src="https://randomuser.me/api/portraits/women/66.jpg"
+                      alt="Natalie Arnold"
+                    />
+                  </div>
+                  <div class="truncate text-center -mx-1">
+                    <span class="text-blue-900 group-hover:underline"
+                      >Natalie</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
           <div class="flex-1">
             <div class="bg-white p-4">Right</div>
