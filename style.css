@@ -9,3 +9,15 @@
 .name {
     max-width: 5rem
 }
+
+.pt-full {
+    padding-top: 100%;
+}
+
+.min-h-28 {
+    min-height: 3rem;
+}
+
+.min-h-20 {
+    min-height: 5rem;
+}
